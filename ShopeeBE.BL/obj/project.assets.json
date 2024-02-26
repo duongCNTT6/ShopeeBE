@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ShopeeBE.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShopeeBE.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopeeBE.Common.dll": {}
+        }
+      },
+      "ShopeeBE.DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ShopeeBE.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopeeBE.DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopeeBE.DL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShopeeBE.Common/1.0.0": {
+      "type": "project",
+      "path": "../ShopeeBE.Common/ShopeeBE.Common.csproj",
+      "msbuildProject": "../ShopeeBE.Common/ShopeeBE.Common.csproj"
+    },
+    "ShopeeBE.DL/1.0.0": {
+      "type": "project",
+      "path": "../ShopeeBE.DL/ShopeeBE.DL.csproj",
+      "msbuildProject": "../ShopeeBE.DL/ShopeeBE.DL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ShopeeBE.Common >= 1.0.0",
+      "ShopeeBE.DL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\duong\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.BL\\ShopeeBE.BL.csproj",
+      "projectName": "ShopeeBE.BL",
+      "projectPath": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.BL\\ShopeeBE.BL.csproj",
+      "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
+      "outputPath": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.BL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.Common\\ShopeeBE.Common.csproj": {
+              "projectPath": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.Common\\ShopeeBE.Common.csproj"
+            },
+            "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.DL\\ShopeeBE.DL.csproj": {
+              "projectPath": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.DL\\ShopeeBE.DL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

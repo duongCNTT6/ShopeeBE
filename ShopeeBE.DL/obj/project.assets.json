@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ShopeeBE.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShopeeBE.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopeeBE.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShopeeBE.Common/1.0.0": {
+      "type": "project",
+      "path": "../ShopeeBE.Common/ShopeeBE.Common.csproj",
+      "msbuildProject": "../ShopeeBE.Common/ShopeeBE.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ShopeeBE.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\duong\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.DL\\ShopeeBE.DL.csproj",
+      "projectName": "ShopeeBE.DL",
+      "projectPath": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.DL\\ShopeeBE.DL.csproj",
+      "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
+      "outputPath": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.DL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.Common\\ShopeeBE.Common.csproj": {
+              "projectPath": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.Common\\ShopeeBE.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

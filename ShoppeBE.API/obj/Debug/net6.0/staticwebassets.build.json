@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VSXe2z54zPLcdofKzZCL9sXnR2s60QjuSrfbQG9t0Kk=",
+  "Source": "ShopeeBE.API",
+  "BasePath": "_content/ShopeeBE.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

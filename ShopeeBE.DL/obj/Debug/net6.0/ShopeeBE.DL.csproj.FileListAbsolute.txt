@@ -1,0 +1,15 @@
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\bin\Debug\net6.0\ShopeeBE.DL.deps.json
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\bin\Debug\net6.0\ShopeeBE.DL.dll
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\bin\Debug\net6.0\ShopeeBE.DL.pdb
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\bin\Debug\net6.0\ShopeeBE.Common.dll
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\bin\Debug\net6.0\ShopeeBE.Common.pdb
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ShopeeBE.DL.csproj.AssemblyReference.cache
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ShopeeBE.DL.GeneratedMSBuildEditorConfig.editorconfig
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ShopeeBE.DL.AssemblyInfoInputs.cache
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ShopeeBE.DL.AssemblyInfo.cs
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ShopeeBE.DL.csproj.CoreCompileInputs.cache
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ShopeeBE.DL.csproj.CopyComplete
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ShopeeBE.DL.dll
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\refint\ShopeeBE.DL.dll
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ShopeeBE.DL.pdb
+E:\VUE_NET_MYSQL\ShoppeBE.API\ShopeeBE.DL\obj\Debug\net6.0\ref\ShopeeBE.DL.dll

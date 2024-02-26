@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ShopeeBE.DL/1.0.0": {
+        "dependencies": {
+          "ShopeeBE.Common": "1.0.0"
+        },
+        "runtime": {
+          "ShopeeBE.DL.dll": {}
+        }
+      },
+      "ShopeeBE.Common/1.0.0": {
+        "runtime": {
+          "ShopeeBE.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShopeeBE.DL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopeeBE.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
