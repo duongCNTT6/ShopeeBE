@@ -8,6 +8,7 @@ namespace ShopeeBE.Common.Models.DTO
 {
     public class PagingResult<T>
     {
+
         /// <summary>
         /// Tổng số bản ghi filter
         /// </summary>

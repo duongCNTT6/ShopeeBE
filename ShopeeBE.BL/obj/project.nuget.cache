@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "oYIusfwYcSS0bWRTg4TYbGnctzvsqzwwAapRG/DbUTCTu+V6wmXJqAaJkjNBJ8VZPCM9CRBBKAsePPsu37gg5g==",
+  "dgSpecHash": "fExwg/xabh6GRl0+7dO8HdbMMV+rnl9kaIHhI14tIfoh1a8bmAMZXR6PI7a89CM7+QqPQeEcZbMtKovrN4cz/A==",
   "success": true,
   "projectFilePath": "E:\\VUE_NET_MYSQL\\ShoppeBE.API\\ShopeeBE.BL\\ShopeeBE.BL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\duong\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
+    "C:\\Users\\duong\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\duong\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
+    "C:\\Users\\duong\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\duong\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

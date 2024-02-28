@@ -1,5 +1,6 @@
 ﻿using ShopeeBE.BL.Interfaces;
 using ShopeeBE.Common.Models.DTO;
+using ShopeeBE.DL.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,11 @@ namespace ShopeeBE.BL.Services
 {
     public class BaseService<T> : IBaseService<T>
     {
+        private IBaseDL<T> _baseDL;
+        public BaseService(IBaseDL<T> baseDL)
+        {
+            _baseDL = baseDL;
+        }
         public bool DeleteRecords(List<Guid> listId)
         {
             throw new NotImplementedException();
@@ -17,7 +23,7 @@ namespace ShopeeBE.BL.Services
 
         public PagingResult<T> GetByFilter(dynamic parameters)
         {
-            throw new NotImplementedException();
+            return _baseDL.GetByFilter(parameters);
         }
 
         public T GetById(Guid id)

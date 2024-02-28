@@ -1,5 +1,7 @@
 using ShopeeBE.BL.Interfaces;
 using ShopeeBE.BL.Services;
+using ShopeeBE.DL.Database;
+using ShopeeBE.DL.Helpers;
 using ShopeeBE.DL.Interfaces;
 using ShopeeBE.DL.Repository;
 
@@ -12,11 +14,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddScoped<IDatabaseConnection, DatabaseConnection>();
 builder.Services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
 builder.Services.AddScoped(typeof(IBaseDL<>), typeof(BaseDL<>));
 
 var app = builder.Build();
+
+DatabaseContext.ConnectionString =  builder.Configuration.GetConnectionString("MySqlLocal");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
